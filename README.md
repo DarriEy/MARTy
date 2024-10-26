@@ -2,6 +2,8 @@
 
 MARTy is an AI-powered assistant designed to help researchers and practitioners with hydrological modeling tasks. It provides voice-interactive guidance for setting up and running CONFLUENCE models, analyzing results, and explaining hydrological concepts.
 
+NOTE: MARTy is in development. Expect to see unfinished code
+
 ## Features
 
 - Voice-interactive interface for model setup and analysis
@@ -16,31 +18,31 @@ MARTy is an AI-powered assistant designed to help researchers and practitioners 
 ```bash
 git clone https://github.com/DarriEy/MARTy.git
 cd MARTy
-
+```
 
 2. Create and activate a virtual environment:
-´´´
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-´´´
+```
 
 3. Install required packages:
-´´´
+```
 pip install -r requirements.txt
-´´´
+```
 
 4. Set up environment variables in a .env file:
-´´´
+```
 ANTHROPIC_API_KEY=your_api_key
 GOOGLE_CREDENTIALS_PATH=path_to_credentials.json
-´´´
+```
 
 ## Usage
 Run MARTy:
 
-´´´
+```
 python MARTy.py
-´´´
+```
 MARTy will start in voice-interactive mode. You can:
 
 Press Enter to use voice input
