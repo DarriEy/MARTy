@@ -1,0 +1,10 @@
+anthropic
+google-cloud-texttospeech
+pygame
+sounddevice
+soundfile
+numpy
+SpeechRecognition
+gTTS
+python-dotenv
+PyYAML
